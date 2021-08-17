@@ -1,0 +1,6 @@
+.button-primary{ 
+  transition: transform .1s linear;
+}
+.button-primary:active{
+  transform: scale(1.05);
+}

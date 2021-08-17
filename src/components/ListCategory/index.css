@@ -1,0 +1,18 @@
+.categories-container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  padding: 0;
+}
+.categories__li {
+  display: block;
+  font-size: .8rem;
+  color: var(--color-text-gray);
+  cursor: pointer;
+}
+.categories__li > span {
+  margin: 0 5px;
+}
+.categories__li:last-child > span{
+  display: none;
+}
